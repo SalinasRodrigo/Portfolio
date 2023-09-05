@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.habilidades{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.habilidad{
+  padding: 20px;
+}
