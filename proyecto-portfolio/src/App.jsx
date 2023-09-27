@@ -4,34 +4,26 @@ import {cv} from "./mooks/cv.json"
 function App() {
   return (
     <>
-      <h1>Rodrigo Salinas</h1>
-      <p>{cv.personaleSpeech}</p>
-
-      <h2>Habilidades</h2>
-      
-      <div className="habilidades">
-        <div className="habilidad">
-          <h3>Frontend</h3>
-          <ul>
-            {cv.habilidadesTecnicas.frontent.map((habilidad, index)=>{
-              return (
-                <li key={index}>{habilidad}</li>
-              )
-            })}
-          </ul>
+      <div className="intro-body">
+        <h1>Rodrigo Salinas</h1>
+        <p>Desarrollador Web Full Stack</p>
+      </div>
+      <div className="personal-speach-body">
+        <div>
+          <h2>¿Quien Soy?</h2>
+          <p>{cv.personaleSpeech}</p>
         </div>
-
-        <div className="habilidad">
-          <h3>Backend</h3>
-          <ul>
-            {cv.habilidadesTecnicas.backend.map((habilidad, index)=>{
-              return (
-                <li key={index}>{habilidad}</li>
-              )
-            })}
-          </ul>
+        <div className="picture-container"></div>
+      </div>
+      <div className="skills-body">
+        <h2>Habilidades</h2>
+        <div className="skills">
+          <div className="development">
+            <h3>Desarrollo</h3>
+            
+          </div>
+          <div></div>
         </div>
-
       </div>
 
       <h2>Proyectos</h2>
