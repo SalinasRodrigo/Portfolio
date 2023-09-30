@@ -17,6 +17,12 @@
   - [ ] Hacer capturas de mis proyectos.
   - [ ] Preparar descripciones para cada proyecto.
 - [ ] Formación.
+  - [ ] Descripción de los cursos y estudios.
+  - [ ] Logos de las escuelas?
+- [ ] Contacto
+  - [ ] Crear el form.
+  - [ ] Estilar el fomr.
+  - [ ] Conectar con la API de EmailJS.
 
 
 ## Notas:

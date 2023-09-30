@@ -21,5 +21,20 @@
       "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696100369/Portfolio/Kibo/KiboSessionPNG_nrbnxr.png",
       "alt": "Kibo session"
     }
+  ],
+  "torneosTruco":
+  [
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108349/Portfolio/Torneos%20Truco/Captura_2_fwhcna.png",
+      "alt": "main page"
+    },
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108350/Portfolio/Torneos%20Truco/Captura_3_lqcsgz.png",
+      "alt": "Torneo iniciado"
+    },
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108349/Portfolio/Torneos%20Truco/Captura_1_z0ea0q.png",
+      "alt": "Maches terminados"
+    }
   ]
 }

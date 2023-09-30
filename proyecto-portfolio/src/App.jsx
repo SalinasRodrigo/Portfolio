@@ -11,7 +11,7 @@ import { PythonLogo } from "./icons/PythonLogo";
 import { ReactLogo } from "./icons/ReactLogo";
 
 import {cv} from "./mooks/cv.json"
-import {kibo} from "./mooks/slider.json"
+import {kibo, torneosTruco} from "./mooks/slider.json"
 
 function App() {
   return (
@@ -107,8 +107,7 @@ function App() {
               <div className="project-header">
                 <h3>Kibo</h3>
                 <div className="project-buttons">
-                  <a className="btn">Demo</a>
-                  <a className="btn">Code</a>
+                  <a className="btn" href="https://github.com/SalinasRodrigo/Kibo.git" rel="noreferrer noopener" target="_blank">Code</a>
                 </div>
               </div>
               <div className="project-main">
@@ -121,39 +120,52 @@ function App() {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <small>Bootstrap</small>
+                </div>
+                <div>
+                  <div className="line"></div>
                 </div>
               </div>
             </div>
-            {/* KIBO */}
+            {/* TorneosTruco */}
             <div className="project">
               <div className="project-img">
-                <ImageSlider images={kibo}/>
+                <ImageSlider images={torneosTruco}/>
               </div>
               <div className="project-header">
-                <h3>Kibo</h3>
+                <h3>Torneos de truco </h3>
                 <div className="project-buttons">
-                  <a className="btn">Demo</a>
-                  <a className="btn">Code</a>
+                  <a className="btn" href="https://torneos-truco.vercel.app/" rel="noreferrer noopener" target="_blank">Demo</a>
+                  <a className="btn"  href="https://github.com/SalinasRodrigo/practicas_react/tree/692a6e67773bb87092f0f533a8e174976b3420fd/projects/06-Torneos_truco" rel="noreferrer noopener" target="_blank">Code</a>
                 </div>
               </div>
               <div className="project-main">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident quod illo beatae dolor maiores, ipsam veniam, iure sapiente, ratione eaque molestias temporibus doloremque expedita accusantium quam omnis molestiae libero.</p>
                 <div>
-                  <small>Python</small>
-                  <small>Flask</small>
-                  <small>MySQL</small>
+                  <small>React</small>
                   <small>HTML</small>
                   <small>CSS</small>
                   <small>JavaScript</small>
-                  <small>Bootstrap</small>
+                </div>
+                <div>
+                  <div className="line"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
-
-        <h2>Educación</h2>
+        <div className="education-body">
+          <h2>Educación</h2>
+          <div className="education">
+            <h3>Ingenieria informatica - Facultad Politécnica U.N.A. </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea sequi esse vero tenetur, tempora sapiente, odio a quo consectetur nulla iste recusandae! Consequuntur accusantium ullam eligendi officia aliquid odio itaque.</p>
+            <small></small>
+          </div>
+          <div className="education">
+            <h3>Dessarrollador web full stack Python - Coding Dojo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea sequi esse vero tenetur, tempora sapiente, odio a quo consectetur nulla iste recusandae! Consequuntur accusantium ullam eligendi officia aliquid odio itaque.</p>
+            <small></small>
+          </div>
+        </div>
       </main>
     </>
     );

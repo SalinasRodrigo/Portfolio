@@ -16,6 +16,10 @@ export function ImageSlider ( {images} ) {
     setActive( active == 0 ? images.length - 1 : active-1 )
   }
 
+  const toIndex = (index) => {
+    setActive(index)
+  }
+
   return (
     <div className="slider">
 
@@ -29,6 +33,15 @@ export function ImageSlider ( {images} ) {
           </div>
         )
       })}
+      <div className="selectors">
+        {images.map((image, index)=>{
+          return(
+            <button key={index}
+              onClick={() => toIndex(index)}
+              style={ active == index ? {backgroundColor: "rebeccapurple"} : {backgroundColor: "#f2f2f2"}}>
+            </button>
+          )})}
+      </div>
       <RightArrow className="right-arrow" onClick={nextSlide}/>
     </div>
   )
