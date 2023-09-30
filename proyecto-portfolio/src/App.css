@@ -12,12 +12,21 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
+main{
+  padding: 50px;
+}
+
 h2{
   font-family: 'Bebas Neue', sans-serif;
   font-size: 50px;
   text-decoration: underline rebeccapurple;
   text-underline-offset: 10px;
   margin-bottom: 10px;
+}
+
+h3{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
 }
 
 p{
@@ -58,7 +67,6 @@ p{
 .personal-speach-body{
   height: 80vh;
   display: grid;
-  padding: 30px;
   gap: 20px;
   grid-template-columns: 2fr 1fr;
 }
@@ -69,7 +77,164 @@ p{
   width: 100%;
 }
 
-.skills-body{
-  padding: 30px;
+
+
+.skills{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 30px;
+  & ul {
+    padding-top: 30px;
+  }
+  & li {
+    padding-bottom: 10px;
+  }
 }
 
+.development{
+  padding: 40px;
+  & ul {
+    list-style-type: none;
+  }
+}
+
+.logos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+
+  & li {
+    text-align: center;
+  }
+  & svg{
+    transform: scale(0.8);
+  }
+}
+
+
+
+.logo{
+  background-color: #f2f2f2;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools{
+  padding: 40px;
+}
+
+.knowkedge{
+  padding: 40px;
+}
+
+.project{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.project-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.project-buttons{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn{
+  background: none;
+  color: rebeccapurple;
+  border: 2px solid rebeccapurple;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  padding: 0px 10px;
+  box-shadow: 0px 0px 10px 2px black;
+}
+
+.btn:hover{
+  transition: 0.3s;
+  background-color: rebeccapurple;
+  color: #1b1b1b;
+  cursor: pointer;
+}
+
+.btn:active{
+  transform: scale(0.9);
+}
+
+.project-main{
+  & p{
+    margin-bottom: 30px;
+  }
+  & small{
+    background-color: rebeccapurple;
+    margin-right: 8px;
+    padding: 3px;
+    color: #f2f2f2;
+  }
+}
+
+.project-img{
+  width: 85%;
+  height: 80%;
+  & img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.5rem;
+    user-select: none;
+    transform: scale(0.8);
+  }
+}
+
+.slider{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left-arrow, .right-arrow{
+  z-index: 2;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  color: #f2f2f2;
+  background-color: #1b1b1b;
+  border-radius: 50%;
+  transform: scale(1.3);
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.left-arrow{
+  left: 1rem;
+}
+
+.right-arrow{
+  right: 1rem;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide-active {
+  opacity: 1;
+  z-index: 1;
+  transition-duration: 1s;
+  transition-delay: 0ms;
+}

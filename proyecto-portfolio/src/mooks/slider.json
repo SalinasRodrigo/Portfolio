@@ -1,0 +1,25 @@
+{
+  "kibo":
+  [
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031789/Portfolio/Kibo/Kibo_sokzv2.png",
+      "alt": "Kibo main page"
+    },
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031788/Portfolio/Kibo/KiboBusqueda_znbrrv.png",
+      "alt": "Kibo search"
+    },
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031788/Portfolio/Kibo/KiboCarrito_qvd8my.png",
+      "alt": "Kibo car"
+    },
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696100370/Portfolio/Kibo/kiboProducto_er49y8.png",
+      "alt": "Kibo product"
+    },
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696100369/Portfolio/Kibo/KiboSessionPNG_nrbnxr.png",
+      "alt": "Kibo session"
+    }
+  ]
+}

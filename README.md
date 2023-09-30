@@ -10,8 +10,12 @@
   - [ ] Arreglar el speach personal.
   - [ ] Imagen de Presentación. 
 - [ ] Habilidades.
-  - [ ] Buscar iconos para mis habilidades, herramientas y conocimientos.
+  - [x] Buscar logos para mis habilidades, herramientas y conocimientos.
+  - [ ] Buscar iconos para los titulos.
 - [ ] Proyectos.
+  - [x] Construir un modelo general para los proyectos.
+  - [ ] Hacer capturas de mis proyectos.
+  - [ ] Preparar descripciones para cada proyecto.
 - [ ] Formación.
 
 
