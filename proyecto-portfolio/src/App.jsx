@@ -1,5 +1,6 @@
 import "./App.css";
 import { ImageSlider } from "./components/ImageSlider";
+import { ContactToMe } from "./components/ContactToMe";
 import { CSSLogo } from "./icons/CSSLogo";
 import { DjangoLogo } from "./icons/DjangoLogo";
 import { FlaskLogo } from "./icons/FlaskLogo";
@@ -12,6 +13,11 @@ import { ReactLogo } from "./icons/ReactLogo";
 
 import {cv} from "./mooks/cv.json"
 import {kibo, torneosTruco} from "./mooks/slider.json"
+import { GithubLogo } from "./icons/GithubLogo";
+import { LinkedinLogo } from "./icons/LinkedinLogo";
+import { GmailLogo } from "./icons/GmailLogo";
+// import { GithubLogo } from "./icons/GithubLogo";
+// import { LinkedinLogo } from "./icons/LinkedinLogo";
 
 function App() {
   return (
@@ -166,7 +172,33 @@ function App() {
             <small></small>
           </div>
         </div>
+        <div className="contact">
+          <div className="contact-header">
+            <h2>¡Contactame!</h2>
+          </div>
+          <div className="contact-body">
+            <div>
+              <ContactToMe/>
+            </div>
+          </div>
+        </div>
       </main>
+      <footer>
+        <div className="footer-logos">
+          <a href="https://github.com/SalinasRodrigo" rel="noreferrer noopener" target="_blank">
+            <GithubLogo/>
+          </a>
+          <a href="https://www.linkedin.com/in/rodrigo-salinas-b8a43b243/" rel="noreferrer noopener" target="_blank">
+            <LinkedinLogo/>
+          </a>
+          <a href="mailto:salinas.e.rodrigo@gmail.com" rel="noreferrer noopener" target="_blank">
+            <GmailLogo/>
+          </a>
+        </div>
+        <div>
+          <small>© Rodrigo Salinas 2023</small>
+        </div>
+      </footer>
     </>
     );
 }

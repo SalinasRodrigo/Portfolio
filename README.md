@@ -19,11 +19,12 @@
 - [ ] Formación.
   - [ ] Descripción de los cursos y estudios.
   - [ ] Logos de las escuelas?
-- [ ] Contacto
-  - [ ] Crear el form.
-  - [ ] Estilar el fomr.
-  - [ ] Conectar con la API de EmailJS.
-
+- [x] Contacto
+  - [x] Crear el form.
+  - [x] Estilar el fomr.
+  - [x] Conectar con la API de EmailJS.
+- [ ] Agregar un reCAPTCHA a mi form. 
+- [ ] Footer.
 
 ## Notas:
 
