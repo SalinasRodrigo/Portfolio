@@ -12,7 +12,7 @@ import { PythonLogo } from "./icons/PythonLogo";
 import { ReactLogo } from "./icons/ReactLogo";
 
 import {cv} from "./mooks/cv.json"
-import {kibo, torneosTruco} from "./mooks/slider.json"
+import {kibo, torneosTruco, weatherApp} from "./mooks/slider.json"
 import { GithubLogo } from "./icons/GithubLogo";
 import { LinkedinLogo } from "./icons/LinkedinLogo";
 import { GmailLogo } from "./icons/GmailLogo";
@@ -142,6 +142,31 @@ function App() {
                 <div className="project-buttons">
                   <a className="btn" href="https://torneos-truco.vercel.app/" rel="noreferrer noopener" target="_blank">Demo</a>
                   <a className="btn"  href="https://github.com/SalinasRodrigo/practicas_react/tree/692a6e67773bb87092f0f533a8e174976b3420fd/projects/06-Torneos_truco" rel="noreferrer noopener" target="_blank">Code</a>
+                </div>
+              </div>
+              <div className="project-main">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident quod illo beatae dolor maiores, ipsam veniam, iure sapiente, ratione eaque molestias temporibus doloremque expedita accusantium quam omnis molestiae libero.</p>
+                <div>
+                  <small>React</small>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>JavaScript</small>
+                </div>
+                <div>
+                  <div className="line"></div>
+                </div>
+              </div>
+            </div>
+            {/* Weather app */}
+            <div className="project">
+              <div className="project-img">
+                <ImageSlider images={weatherApp}/>
+              </div>
+              <div className="project-header">
+                <h3>Weather app</h3>
+                <div className="project-buttons">
+                  <a className="btn" href="https://climate-d38bh6eh7-rodrigos-projects.vercel.app/" rel="noreferrer noopener" target="_blank">Demo</a>
+                  <a className="btn"  href="https://github.com/SalinasRodrigo/climate_app.git" rel="noreferrer noopener" target="_blank">Code</a>
                 </div>
               </div>
               <div className="project-main">

@@ -14,7 +14,7 @@
   - [ ] Buscar iconos para los titulos.
 - [ ] Proyectos.
   - [x] Construir un modelo general para los proyectos.
-  - [ ] Hacer capturas de mis proyectos.
+  - [x] Hacer capturas de mis proyectos.
   - [ ] Preparar descripciones para cada proyecto.
 - [ ] Formación.
   - [ ] Descripción de los cursos y estudios.
@@ -24,7 +24,7 @@
   - [x] Estilar el fomr.
   - [x] Conectar con la API de EmailJS.
 - [ ] Agregar un reCAPTCHA a mi form. 
-- [ ] Footer.
+- [x] Footer.
 
 ## Notas:
 

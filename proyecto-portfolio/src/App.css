@@ -69,7 +69,7 @@ p{
 }
 
 .personal-speach-body{
-  height: 80vh;
+  height: 100vh;
   display: grid;
   gap: 20px;
   grid-template-columns: 2fr 1fr;
@@ -81,7 +81,9 @@ p{
   width: 100%;
 }
 
-
+.skills-body{
+  height: 100vh;
+}
 
 .skills{
   display: grid;
@@ -278,6 +280,10 @@ p{
 .contact-header{
   margin-top: 30px;
   text-align: center;
+}
+
+.contact{
+  height: 75vh;
 }
 
 .contact-body{

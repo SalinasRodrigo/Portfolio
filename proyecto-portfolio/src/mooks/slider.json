@@ -36,5 +36,20 @@
       "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108349/Portfolio/Torneos%20Truco/Captura_1_z0ea0q.png",
       "alt": "Maches terminados"
     }
+  ],
+  "weatherApp":
+  [
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710214/Portfolio/wheather_app/weather_mai_yobqfv.png",
+      "alt": "main page"
+    },
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710215/Portfolio/wheather_app/show_more_u5vhca.png",
+      "alt": "show more"
+    },
+    {
+      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710214/Portfolio/wheather_app/tokyo_nvnnep.png",
+      "alt": "tokyo wheather"
+    }
   ]
 }
