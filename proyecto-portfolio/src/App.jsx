@@ -23,28 +23,27 @@ import { Starticon } from "./icons/StarIcon";
 import { GraduationIcon } from "./icons/GraduationIcon";
 import { ContactIcon } from "./icons/ContactIcon";
 
-
 function App() {
   return (
     <>
       <nav className="side-nav-bar">
-          <a href="#about-me" className="nav-btn" title="Sobre mí">
-            <PersonIcon/>
-          </a>
-          <a href="#skills" className="nav-btn" title="Habilidades">
-            <SkillsIcon/>
-          </a>
-          <a href="#projects" className="nav-btn" title="Proyectos">
-            <Starticon/>
-          </a>
-          <a href="#education" className="nav-btn" title="Educación">
-            <GraduationIcon/>
-          </a>
-          <a href="#contact" className="nav-btn" title="Contáctame">
-            <ContactIcon/>
-          </a>
+        <a href="#about-me" className="nav-btn" data-title="Sobre mí">
+          <PersonIcon />
+        </a>
+        <a href="#skills" className="nav-btn" data-title="Habilidades">
+          <SkillsIcon />
+        </a>
+        <a href="#projects" className="nav-btn" data-title="Proyectos">
+          <Starticon />
+        </a>
+        <a href="#education" className="nav-btn" data-title="Educación">
+          <GraduationIcon />
+        </a>
+        <a href="#contact" className="nav-btn" data-title="Contáctame">
+          <ContactIcon />
+        </a>
       </nav>
-      <header className="intro-body" >
+      <header className="intro-body">
         <h1>Rodrigo Salinas</h1>
         <p>Desarrollador Web Full Stack</p>
       </header>
@@ -52,31 +51,49 @@ function App() {
         <div className="personal-speach" id="about-me">
           <div className="personal-speach-header">
             <h2>¿Quien Soy?</h2>
-            <a 
-              href="https://drive.google.com/file/d/1EMB1KtC9g8NY6dLitjy8F2cc6fdYg-25/view?usp=sharing" 
+            <a
+              href="https://drive.google.com/file/d/1EMB1KtC9g8NY6dLitjy8F2cc6fdYg-25/view?usp=sharing"
               rel="noreferrer noopener"
-              target="_blank">
-              <CVIcon/>
+              target="_blank"
+            >
+              <CVIcon />
             </a>
             <a
               href="https://github.com/SalinasRodrigo/Kibo.git"
               rel="noreferrer noopener"
               target="_blank"
             >
-              <GithubLogo/>
+              <GithubLogo />
             </a>
           </div>
           <div className="personal-speach-body">
             <div>
-              <p>&nbsp;{cv.personaleSpeech[0]}</p>
-              <br/>
-              <p>&nbsp;{cv.personaleSpeech[1]}</p>
-              <br/>
-              <p>&nbsp;{cv.personaleSpeech[2]} <br/>¡Es un gusto conocerte!</p>
+              <p>
+                &nbsp;Soy un desarrollador web Full Stack y estudiante de
+                ingeniería en informática. Habiendo incursionado al mundo de la
+                informática y el desarrollo de forma autodidacta y aun
+                especializándome en la universidad, decidí enfocarme en el área
+                del desarrollo web a través de un bootcamp.
+              </p>
+              <br />
+              <p>
+                &nbsp;Me especializo en Python (con los framework&apos;s Flask y
+                Django) y bases de datos SQL en el backend y utilizo el
+                framework React para el frontend (además de contar con los
+                conocimientos en HTML, CSS y JavaScript junto a algunas de sus
+                librerías).
+              </p>
+              <br />
+              <p>
+                &nbsp;Disfruto de aprender y trabajar en equipo para crear
+                nuevas tecnologías aportando, además de mis habilidades
+                técnicas, comunicación asertiva y empática con mis compañeros.
+                Busco oportunidades en el área IT donde pueda crecer como
+                desarrollador y profesional. <br />
+                ¡Es un gusto conocerte!
+              </p>
             </div>
-            <div className="picture-container">
-              
-            </div>
+            <div className="picture-container"></div>
           </div>
         </div>
         <div className="skills-body" id="skills">
@@ -320,7 +337,7 @@ function App() {
             <small></small>
           </div>
         </div>
-        <div className="contact" >
+        <div className="contact">
           <div className="contact-header" id="contact">
             <h2>¡Contactame!</h2>
           </div>

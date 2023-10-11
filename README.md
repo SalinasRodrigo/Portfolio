@@ -25,10 +25,10 @@
   - [x] Conectar con la API de EmailJS.
 - [ ] Agregar un reCAPTCHA a mi form. 
 - [x] Footer.
-- [ ] NavBar
+- [x] NavBar
   - [x] Iconos.
-  - [ ] Anchors.
-  - [ ] Texto.
+  - [x] Anchors.
+  - [x] Texto.
 
 ## Notas:
 

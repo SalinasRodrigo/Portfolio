@@ -1,30 +1,30 @@
 /* eslint-disable react/prop-types */
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { LeftArrow } from "../icons/LeftArrow";
 import { RightArrow } from "../icons/RightArrow";
 
 export function ImageSlider({ images }) {
   const [active, setActive] = useState(0);
-  const timeoutRef = useRef(null);
-  const delay = 3000;
-  function resetTimeout() {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
-  }
+  // const timeoutRef = useRef(null);
+  // const delay = 3000;
+  // function resetTimeout() {
+  //   if (timeoutRef.current) {
+  //     clearTimeout(timeoutRef.current);
+  //   }
+  // }
 
-  useEffect(() => {
-    resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setActive((active) => (active == images.length - 1 ? 0 : active + 1)),
-      delay
-    );
-    return () => {
-      resetTimeout();
-    };
-  }, [active]);
+  // useEffect(() => {
+  //   resetTimeout();
+  //   timeoutRef.current = setTimeout(
+  //     () =>
+  //       setActive((active) => (active == images.length - 1 ? 0 : active + 1)),
+  //     delay
+  //   );
+  //   return () => {
+  //     resetTimeout();
+  //   };
+  // }, [active]);
 
   const nextSlide = () => {
     setActive(active == images.length - 1 ? 0 : active + 1);
