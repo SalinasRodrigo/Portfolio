@@ -1,55 +1,63 @@
 {
-  "kibo":
-  [
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031789/Portfolio/Kibo/Kibo_sokzv2.png",
-      "alt": "Kibo main page"
-    },
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031788/Portfolio/Kibo/KiboBusqueda_znbrrv.png",
-      "alt": "Kibo search"
-    },
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031788/Portfolio/Kibo/KiboCarrito_qvd8my.png",
-      "alt": "Kibo car"
-    },
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696100370/Portfolio/Kibo/kiboProducto_er49y8.png",
-      "alt": "Kibo product"
-    },
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696100369/Portfolio/Kibo/KiboSessionPNG_nrbnxr.png",
-      "alt": "Kibo session"
-    }
-  ],
-  "torneosTruco":
-  [
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108349/Portfolio/Torneos%20Truco/Captura_2_fwhcna.png",
-      "alt": "main page"
-    },
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108350/Portfolio/Torneos%20Truco/Captura_3_lqcsgz.png",
-      "alt": "Torneo iniciado"
-    },
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108349/Portfolio/Torneos%20Truco/Captura_1_z0ea0q.png",
-      "alt": "Maches terminados"
-    }
-  ],
-  "weatherApp":
-  [
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710214/Portfolio/wheather_app/weather_mai_yobqfv.png",
-      "alt": "main page"
-    },
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710215/Portfolio/wheather_app/show_more_u5vhca.png",
-      "alt": "show more"
-    },
-    {
-      "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710214/Portfolio/wheather_app/tokyo_nvnnep.png",
-      "alt": "tokyo wheather"
-    }
-  ]
+  "kibo":{
+    "images":[
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031789/Portfolio/Kibo/Kibo_sokzv2.png",
+        "alt": "Kibo main page"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031788/Portfolio/Kibo/KiboBusqueda_znbrrv.png",
+        "alt": "Kibo search"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696031788/Portfolio/Kibo/KiboCarrito_qvd8my.png",
+        "alt": "Kibo car"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696100370/Portfolio/Kibo/kiboProducto_er49y8.png",
+        "alt": "Kibo product"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696100369/Portfolio/Kibo/KiboSessionPNG_nrbnxr.png",
+        "alt": "Kibo session"
+      }
+    ],
+    "description": "Desarrolle el 70% del frontend utilizando HTML5, CSS, JavaScript y la librería Bootstrap, dándole un diseño simple, atractivo y responsivo para que el usuario se sienta cómodo al comprar. También en cuanto a backend facilite los controladores para mostrar los productos de la base de datos en el frontend."
+  },
+  "torneosTruco":{
+    "images":[
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108349/Portfolio/Torneos%20Truco/Captura_2_fwhcna.png",
+        "alt": "main page"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108350/Portfolio/Torneos%20Truco/Captura_3_lqcsgz.png",
+        "alt": "Torneo iniciado"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696108349/Portfolio/Torneos%20Truco/Captura_1_z0ea0q.png",
+        "alt": "Maches terminados"
+      }
+    ],
+    "description":"Se me pidió desarrollar una aplicación web que facilite los enfrentamientos y clasificación para torneos del juego de cartas «Truco». Utilizando JavaScript, cree un algoritmo que genera los enfrentamientos y las fechas, y otro para la clasificación ordenada según criterios parecidos al sistema suizo del ajedrez. El 100% del proyecto se realizo utilizando React, JavaScript, CSS y HTML."
+  },
+  
+  "weatherApp":{
+    "images":  [
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710214/Portfolio/wheather_app/weather_mai_yobqfv.png",
+        "alt": "main page"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710215/Portfolio/wheather_app/show_more_u5vhca.png",
+        "alt": "show more"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1696710214/Portfolio/wheather_app/tokyo_nvnnep.png",
+        "alt": "tokyo wheather"
+      }
+    ],
+    "description": "Con el fin de practicar mis habilidades con React desarrollé una web que proporciona el estado del clima. Cree el frontend utilizando React, JavaScript, HTML y CSS. La información del clima de cada ciudad se obtiene atrevés de la API de «WeatherApi»."
+  }
+
 }

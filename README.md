@@ -12,13 +12,12 @@
 - [x] Habilidades.
   - [x] Buscar logos para mis habilidades, herramientas y conocimientos.
   - [x] Buscar iconos para los titulos.
-- [ ] Proyectos.
+- [x] Proyectos.
   - [x] Construir un modelo general para los proyectos.
   - [x] Hacer capturas de mis proyectos.
-  - [ ] Preparar descripciones para cada proyecto.
-- [ ] Formación.
-  - [ ] Descripción de los cursos y estudios.
-  - [ ] Logos de las escuelas?
+  - [x] Preparar descripciones para cada proyecto.
+- [x] Formación.
+  - [x] Descripción de los cursos y estudios.
 - [x] Contacto
   - [x] Crear el form.
   - [x] Estilar el fomr.

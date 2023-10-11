@@ -196,7 +196,7 @@ function App() {
             {/* KIBO */}
             <div className="project">
               <div className="project-img">
-                <ImageSlider images={kibo} />
+                <ImageSlider images={kibo.images} />
               </div>
               <div className="project-header">
                 <h3>Kibo</h3>
@@ -213,10 +213,7 @@ function App() {
               </div>
               <div className="project-main">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium provident quod illo beatae dolor maiores, ipsam
-                  veniam, iure sapiente, ratione eaque molestias temporibus
-                  doloremque expedita accusantium quam omnis molestiae libero.
+                  &nbsp;{kibo.description}
                 </p>
                 <div>
                   <small>Python</small>
@@ -235,7 +232,7 @@ function App() {
             {/* TorneosTruco */}
             <div className="project">
               <div className="project-img">
-                <ImageSlider images={torneosTruco} />
+                <ImageSlider images={torneosTruco.images} />
               </div>
               <div className="project-header">
                 <h3>Torneos de truco </h3>
@@ -260,10 +257,7 @@ function App() {
               </div>
               <div className="project-main">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium provident quod illo beatae dolor maiores, ipsam
-                  veniam, iure sapiente, ratione eaque molestias temporibus
-                  doloremque expedita accusantium quam omnis molestiae libero.
+                  &nbsp;{torneosTruco.description}
                 </p>
                 <div>
                   <small>React</small>
@@ -279,7 +273,7 @@ function App() {
             {/* Weather app */}
             <div className="project">
               <div className="project-img">
-                <ImageSlider images={weatherApp} />
+                <ImageSlider images={weatherApp.images} />
               </div>
               <div className="project-header">
                 <h3>Weather app</h3>
@@ -304,16 +298,14 @@ function App() {
               </div>
               <div className="project-main">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium provident quod illo beatae dolor maiores, ipsam
-                  veniam, iure sapiente, ratione eaque molestias temporibus
-                  doloremque expedita accusantium quam omnis molestiae libero.
+                  &nbsp;{weatherApp.description}
                 </p>
                 <div>
                   <small>React</small>
                   <small>HTML</small>
                   <small>CSS</small>
                   <small>JavaScript</small>
+                  <small>API connection</small>
                 </div>
                 <div>
                   <div className="line"></div>
@@ -325,24 +317,24 @@ function App() {
         <div className="education-body" id="education">
           <h2>Educación</h2>
           <div className="education">
-            <h3>Ingenieria informatica - Facultad Politécnica U.N.A. </h3>
+            <div>
+              <h3>Ingenieria informatica - Facultad Politécnica U.N.A. </h3>
+              <small>2021 - actualidad</small>
+            </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea sequi
-              esse vero tenetur, tempora sapiente, odio a quo consectetur nulla
-              iste recusandae! Consequuntur accusantium ullam eligendi officia
-              aliquid odio itaque.
+              &nbsp;Ciencias físico-matemáticas. - Ciencias de la computación. -
+              Planificar, diseñar e implementar proyectos informáticos. -
+              Habilidad de trabajar en equipo y de comunicarse eficientemente en forma oral y escrita.
             </p>
-            <small></small>
           </div>
           <div className="education">
-            <h3>Dessarrollador web full stack Python - Coding Dojo</h3>
+            <div>
+              <h3>Dessarrollador web full stack Python - Coding Dojo </h3>
+              <small>2022 - 2023</small>
+            </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea sequi
-              esse vero tenetur, tempora sapiente, odio a quo consectetur nulla
-              iste recusandae! Consequuntur accusantium ullam eligendi officia
-              aliquid odio itaque.
+              &nbsp;HTML5 - CSS3 - JavaScript - Python - MySQL - Flask - Django
             </p>
-            <small></small>
           </div>
         </div>
         <div className="contact">
