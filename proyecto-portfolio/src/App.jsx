@@ -13,7 +13,7 @@ import { ReactLogo } from "./icons/ReactLogo";
 import { GithubLogo } from "./icons/GithubLogo";
 import { LinkedinLogo } from "./icons/LinkedinLogo";
 import { GmailLogo } from "./icons/GmailLogo";
-import { cv } from "./mooks/cv.json";
+// import { cv } from "./mooks/cv.json";
 import { kibo, torneosTruco, weatherApp } from "./mooks/slider.json";
 import { CVIcon } from "./icons/CVIcon";
 import { PersonIcon } from "./icons/PersonIcon";
@@ -22,6 +22,8 @@ import { SkillsIcon } from "./icons/SkillsIcon";
 import { Starticon } from "./icons/StarIcon";
 import { GraduationIcon } from "./icons/GraduationIcon";
 import { ContactIcon } from "./icons/ContactIcon";
+import { ToolsIcon } from "./icons/ToolsIcon";
+import { LightbulbIcon } from "./icons/LightbulbIcon";
 
 function App() {
   return (
@@ -100,7 +102,9 @@ function App() {
           <h2>Mis Habilidades</h2>
           <div className="skills">
             <div className="development">
-              <h3>Tecnologías</h3>
+              <h3>
+                <GearsIcons /> Tecnologías
+              </h3>
               <ul className="logos">
                 <li>
                   <div className="logo">
@@ -159,7 +163,9 @@ function App() {
               </ul>
             </div>
             <div className="tools">
-              <h3>Herramientas</h3>
+              <h3>
+                <ToolsIcon /> Herramientas
+              </h3>
               <ul>
                 <li>Git + Github</li>
                 <li>jQuery</li>
@@ -170,7 +176,9 @@ function App() {
               </ul>
             </div>
             <div className="knowkedge">
-              <h3>Conocimientos</h3>
+              <h3>
+                <LightbulbIcon /> Conocimientos
+              </h3>
               <ul>
                 <li>POO</li>
                 <li>Bases de datos relacionales</li>

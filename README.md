@@ -9,9 +9,9 @@
 - [ ] Speach personal.
   - [x] Arreglar el speach personal.
   - [ ] Imagen de Presentación. 
-- [ ] Habilidades.
+- [x] Habilidades.
   - [x] Buscar logos para mis habilidades, herramientas y conocimientos.
-  - [ ] Buscar iconos para los titulos.
+  - [x] Buscar iconos para los titulos.
 - [ ] Proyectos.
   - [x] Construir un modelo general para los proyectos.
   - [x] Hacer capturas de mis proyectos.

@@ -188,6 +188,10 @@ p{
   padding: 40px;
 }
 
+.tools ul, .knowkedge ul{
+  padding-left: 20px;
+}
+
 .project{
   margin-bottom: 30px;
 }
@@ -247,6 +251,8 @@ p{
   & img{
     max-width: 100%;
     max-height: 100%;
+    width: 100%;
+    aspect-ratio: 1425/752;
     border-radius: 0.5rem;
     user-select: none;
     transform: scale(0.8);
