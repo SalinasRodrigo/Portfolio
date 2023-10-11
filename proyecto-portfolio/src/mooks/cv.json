@@ -2,12 +2,9 @@
   "cv":
   {
     "personaleSpeech": [
-      "Soy un desarrollador web Full Stack con conocimiento de HTML 5, CSS, JS, Python, MySQL y múltiples librerías y",
-      "frameworks de las respectivas tecnologías (Bootstrap, Flask, Django, etc.) y estudiante de ingeniería informática (4to",
-      "semestre). Con conocimiento de lenguaje C, Java y electrónica. Cuento con habilidades que permiten trabajar en",
-      "equipo de manera eficaz, Disfruto el aprender y adquirir nuevos conocimientos, cuento con habilidades de empatía y",
-      "comunicación asertiva que permiten desempeñarme de manera idónea con los demás. Me encuentro interesado",
-      "en aplicar mis conocimientos como desarrollador en diversos proyectos dentro del área IT."
+      "Soy un desarrollador web Full Stack y estudiante de ingeniería en informática. Habiendo incursionado al mundo de la informática y el desarrollo de forma autodidacta y aun especializándome en la universidad, decidí enfocarme en el área del desarrollo web a través de un bootcamp.", 
+      "Me especializo en Python (con los framework's Flask y Django) y bases de datos SQL en el backend y utilizo el framework React para el frontend (además de contar con los conocimientos en HTML, CSS y JavaScript junto a algunas de sus librerías). ",
+      " Disfruto de aprender y trabajar en equipo para crear nuevas tecnologías aportando además de mis habilidades técnicas comunicación asertiva y empática con mis compañeros. Busco oportunidades en el área IT donde pueda crecer como desarrollador y profesional."
     ],
     "habilidadesTecnicas": {
       "frontent": ["React", "HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery"],

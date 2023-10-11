@@ -68,17 +68,45 @@ p{
   }
 }
 
-.personal-speach-body{
+.personal-speach{
   height: 100vh;
+}
+
+.personal-speach-header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+  & a{
+    color: #f2f2f2;
+    transition: all 0.5s;
+  }
+  & a:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+  }
+} 
+
+.personal-speach-body{
   display: grid;
   gap: 20px;
   grid-template-columns: 2fr 1fr;
+  margin-top: 60px;
 }
 
 .picture-container{
   border: 2px solid rebeccapurple;
-  height: 80%;
+  height: 400px;
+  width: 400px;
+}
+
+.cv-link{
   width: 100%;
+  margin-top: 80px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-body{
