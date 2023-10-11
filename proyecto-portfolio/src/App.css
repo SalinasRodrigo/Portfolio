@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+html{scroll-behavior:smooth}
+
 *{
   padding: 0;
   margin: 0;
@@ -13,7 +16,7 @@ body{
 }
 
 main{
-  padding: 90px;
+  padding: 60px 90px;
 }
 
 a{
@@ -336,10 +339,15 @@ nav{
   top: calc(50% - (180px/2));
 }
 
+
 nav a[title]:hover::after {
   content: attr(title);
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #ffffff40;
   position: absolute;
   padding: 10px;
+  text-align: center;
+  width: 90px;
   border-radius: 1rem;
   right: 3rem;
 }

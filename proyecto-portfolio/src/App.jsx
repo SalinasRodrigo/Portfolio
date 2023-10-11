@@ -28,28 +28,28 @@ function App() {
   return (
     <>
       <nav className="side-nav-bar">
-          <a href="" className="nav-btn" title="Hola">
+          <a href="#about-me" className="nav-btn" title="Sobre mí">
             <PersonIcon/>
           </a>
-          <a href="" className="nav-btn" title="Hola">
+          <a href="#skills" className="nav-btn" title="Habilidades">
             <SkillsIcon/>
           </a>
-          <a href="" className="nav-btn" title="Hola">
+          <a href="#projects" className="nav-btn" title="Proyectos">
             <Starticon/>
           </a>
-          <a href="" className="nav-btn">
+          <a href="#education" className="nav-btn" title="Educación">
             <GraduationIcon/>
           </a>
-          <a href="" className="nav-btn">
+          <a href="#contact" className="nav-btn" title="Contáctame">
             <ContactIcon/>
           </a>
       </nav>
-      <header className="intro-body">
+      <header className="intro-body" >
         <h1>Rodrigo Salinas</h1>
         <p>Desarrollador Web Full Stack</p>
       </header>
       <main>
-        <div className="personal-speach">
+        <div className="personal-speach" id="about-me">
           <div className="personal-speach-header">
             <h2>¿Quien Soy?</h2>
             <a 
@@ -79,7 +79,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="skills-body">
+        <div className="skills-body" id="skills">
           <h2>Mis Habilidades</h2>
           <div className="skills">
             <div className="development">
@@ -165,7 +165,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="projects-body">
+        <div className="projects-body" id="projects">
           <h2>Algunos de mis proyectos</h2>
           <div className="projects">
             {/* KIBO */}
@@ -297,7 +297,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="education-body">
+        <div className="education-body" id="education">
           <h2>Educación</h2>
           <div className="education">
             <h3>Ingenieria informatica - Facultad Politécnica U.N.A. </h3>
@@ -320,8 +320,8 @@ function App() {
             <small></small>
           </div>
         </div>
-        <div className="contact">
-          <div className="contact-header">
+        <div className="contact" >
+          <div className="contact-header" id="contact">
             <h2>¡Contactame!</h2>
           </div>
           <div className="contact-body">
