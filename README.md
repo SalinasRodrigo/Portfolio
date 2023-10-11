@@ -7,7 +7,7 @@
   - [ ] Imagen de fondo.
   - [ ] Anchor para desplazar a la siguiente sección
 - [ ] Speach personal.
-  - [ ] Arreglar el speach personal.
+  - [x] Arreglar el speach personal.
   - [ ] Imagen de Presentación. 
 - [ ] Habilidades.
   - [x] Buscar logos para mis habilidades, herramientas y conocimientos.
@@ -25,6 +25,10 @@
   - [x] Conectar con la API de EmailJS.
 - [ ] Agregar un reCAPTCHA a mi form. 
 - [x] Footer.
+- [ ] NavBar
+  - [x] Iconos.
+  - [ ] Anchors.
+  - [ ] Texto.
 
 ## Notas:
 

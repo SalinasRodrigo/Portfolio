@@ -13,7 +13,7 @@ body{
 }
 
 main{
-  padding: 50px;
+  padding: 90px;
 }
 
 a{
@@ -98,6 +98,7 @@ p{
   border: 2px solid rebeccapurple;
   height: 400px;
   width: 400px;
+  border-radius: 50%;
 }
 
 .cv-link{
@@ -319,6 +320,33 @@ p{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  width: 60px;
+  height: 180px;
+  border-radius: 1rem;
+  position: fixed;
+  right: 1rem;
+  top: calc(50% - (180px/2));
+}
+
+nav a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  padding: 10px;
+  border-radius: 1rem;
+  right: 3rem;
+}
+
+
+.nav-btn{
+  color: #f2f2f2;
 }
 
 footer{

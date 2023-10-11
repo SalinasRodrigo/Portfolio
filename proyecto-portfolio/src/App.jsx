@@ -16,11 +16,34 @@ import { GmailLogo } from "./icons/GmailLogo";
 import { cv } from "./mooks/cv.json";
 import { kibo, torneosTruco, weatherApp } from "./mooks/slider.json";
 import { CVIcon } from "./icons/CVIcon";
+import { PersonIcon } from "./icons/PersonIcon";
+import { GearsIcons } from "./icons/GearsIcons";
+import { SkillsIcon } from "./icons/SkillsIcon";
+import { Starticon } from "./icons/StarIcon";
+import { GraduationIcon } from "./icons/GraduationIcon";
+import { ContactIcon } from "./icons/ContactIcon";
 
 
 function App() {
   return (
     <>
+      <nav className="side-nav-bar">
+          <a href="" className="nav-btn" title="Hola">
+            <PersonIcon/>
+          </a>
+          <a href="" className="nav-btn" title="Hola">
+            <SkillsIcon/>
+          </a>
+          <a href="" className="nav-btn" title="Hola">
+            <Starticon/>
+          </a>
+          <a href="" className="nav-btn">
+            <GraduationIcon/>
+          </a>
+          <a href="" className="nav-btn">
+            <ContactIcon/>
+          </a>
+      </nav>
       <header className="intro-body">
         <h1>Rodrigo Salinas</h1>
         <p>Desarrollador Web Full Stack</p>
