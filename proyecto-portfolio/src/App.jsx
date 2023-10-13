@@ -50,8 +50,8 @@ function App() {
         <p>Desarrollador Web Full Stack</p>
       </header>
       <main>
-        <div className="personal-speach" id="about-me">
-          <div className="personal-speach-header">
+        <section className="personal-speach" id="about-me">
+          <header className="personal-speach-header">
             <h2>¿Quien Soy?</h2>
             <a
               href="https://drive.google.com/file/d/1EMB1KtC9g8NY6dLitjy8F2cc6fdYg-25/view?usp=sharing"
@@ -67,7 +67,7 @@ function App() {
             >
               <GithubLogo />
             </a>
-          </div>
+          </header>
           <div className="personal-speach-body">
             <div>
               <p>
@@ -97,8 +97,8 @@ function App() {
             </div>
             <div className="picture-container"></div>
           </div>
-        </div>
-        <div className="skills-body" id="skills">
+        </section>
+        <section className="skills-body" id="skills">
           <h2>Mis Habilidades</h2>
           <div className="skills">
             <div className="development">
@@ -189,12 +189,12 @@ function App() {
               </ul>
             </div>
           </div>
-        </div>
-        <div className="projects-body" id="projects">
+        </section>
+        <section className="projects-body" id="projects">
           <h2>Algunos de mis proyectos</h2>
           <div className="projects">
             {/* KIBO */}
-            <div className="project">
+            <section className="project">
               <div className="project-img">
                 <ImageSlider images={kibo.images} />
               </div>
@@ -228,9 +228,9 @@ function App() {
                   <div className="line"></div>
                 </div>
               </div>
-            </div>
+            </section>
             {/* TorneosTruco */}
-            <div className="project">
+            <section className="project">
               <div className="project-img">
                 <ImageSlider images={torneosTruco.images} />
               </div>
@@ -269,9 +269,9 @@ function App() {
                   <div className="line"></div>
                 </div>
               </div>
-            </div>
+            </section>
             {/* Weather app */}
-            <div className="project">
+            <section className="project">
               <div className="project-img">
                 <ImageSlider images={weatherApp.images} />
               </div>
@@ -311,14 +311,14 @@ function App() {
                   <div className="line"></div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
-        </div>
-        <div className="education-body" id="education">
+        </section>
+        <section className="education-body" id="education">
           <h2>Educación</h2>
           <div className="education">
             <div>
-              <h3>Ingenieria informatica - Facultad Politécnica U.N.A. </h3>
+              <h3>Ingeniería informática - Facultad Politécnica U.N.A. </h3>
               <small>2021 - actualidad</small>
             </div>
             <p>
@@ -329,24 +329,22 @@ function App() {
           </div>
           <div className="education">
             <div>
-              <h3>Dessarrollador web full stack Python - Coding Dojo </h3>
+              <h3>Desarrollador web full stack Python - Coding Dojo </h3>
               <small>2022 - 2023</small>
             </div>
             <p>
               &nbsp;HTML5 - CSS3 - JavaScript - Python - MySQL - Flask - Django
             </p>
           </div>
-        </div>
-        <div className="contact">
-          <div className="contact-header" id="contact">
+        </section>
+        <section className="contact">
+          <header className="contact-header" id="contact">
             <h2>¡Contactame!</h2>
-          </div>
+          </header>
           <div className="contact-body">
-            <div>
-              <ContactToMe />
-            </div>
+            <ContactToMe />
           </div>
-        </div>
+        </section>
       </main>
       <footer>
         <div className="footer-logos">
