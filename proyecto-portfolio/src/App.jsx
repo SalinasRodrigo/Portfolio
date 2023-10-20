@@ -55,7 +55,7 @@ function App() {
           <header className="personal-speach-header">
             <h2>¿Quien Soy?</h2>
             <a
-              href="https://drive.google.com/file/d/1EMB1KtC9g8NY6dLitjy8F2cc6fdYg-25/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZQOO8tvlQtGGnlI4fDi1_jOgwChpZirq/view?usp=sharing"
               rel="noreferrer noopener"
               target="_blank"
             >
