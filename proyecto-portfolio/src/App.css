@@ -118,6 +118,11 @@ p{
   height: 400px;
   width: 400px;
   border-radius: 50%;
+  overflow: hidden;
+  & img{
+    height: inherit;
+    width: inherit;
+  }
 }
 
 .cv-link{

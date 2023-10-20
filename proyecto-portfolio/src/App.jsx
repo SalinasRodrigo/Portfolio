@@ -24,6 +24,7 @@ import { GraduationIcon } from "./icons/GraduationIcon";
 import { ContactIcon } from "./icons/ContactIcon";
 import { ToolsIcon } from "./icons/ToolsIcon";
 import { LightbulbIcon } from "./icons/LightbulbIcon";
+import fotoDePerfil from './assets/perfil.jpg';
 
 function App() {
   return (
@@ -95,7 +96,9 @@ function App() {
                 ¡Es un gusto conocerte!
               </p>
             </div>
-            <div className="picture-container"></div>
+            <div className="picture-container">
+              <img src={fotoDePerfil} alt="Foto de perfil" />
+            </div>
           </div>
         </section>
         <section className="skills-body" id="skills">
