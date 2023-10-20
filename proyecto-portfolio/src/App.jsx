@@ -62,7 +62,7 @@ function App() {
               <CVIcon />
             </a>
             <a
-              href="https://github.com/SalinasRodrigo/Kibo.git"
+              href="https://github.com/SalinasRodrigo"
               rel="noreferrer noopener"
               target="_blank"
             >
