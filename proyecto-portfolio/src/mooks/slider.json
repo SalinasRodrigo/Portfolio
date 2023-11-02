@@ -24,6 +24,23 @@
     ],
     "description": "Desarrolle el 70% del frontend utilizando HTML5, CSS, JavaScript y la librería Bootstrap, dándole un diseño simple, atractivo y responsivo para que el usuario se sienta cómodo al comprar. También en cuanto a backend facilite los controladores para mostrar los productos de la base de datos en el frontend."
   },
+  "noteApp":{
+    "images":[
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1698961910/Portfolio/note_app/nert2yqekzxjoct8hh7w.png",
+        "alt": "main page"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1698961910/Portfolio/note_app/bkktlhaenf45rassbh9o.png",
+        "alt": "Editar nota"
+      },
+      {
+        "src": "https://res.cloudinary.com/dwoo8pwlg/image/upload/v1698961910/Portfolio/note_app/ybcv8tndmk03n8xf5m06.png",
+        "alt": "Nueva Nota"
+      }
+    ],
+    "description": "Utilizando Django y React, desarrolle una aplicación que integra ambas tecnologías, manejando una base de datos sencilla desde el backend con Django y enviándola a React a través de una API. El resultado fue una aplicación de notas con un backend perfectamente funcional y un frontend amigable y sencillo para al usuario."
+  },
   "torneosTruco":{
     "images":[
       {

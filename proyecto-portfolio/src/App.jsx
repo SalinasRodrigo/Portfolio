@@ -14,7 +14,7 @@ import { GithubLogo } from "./icons/GithubLogo";
 import { LinkedinLogo } from "./icons/LinkedinLogo";
 import { GmailLogo } from "./icons/GmailLogo";
 // import { cv } from "./mooks/cv.json";
-import { kibo, torneosTruco, weatherApp } from "./mooks/slider.json";
+import { kibo, torneosTruco, weatherApp, noteApp } from "./mooks/slider.json";
 import { CVIcon } from "./icons/CVIcon";
 import { PersonIcon } from "./icons/PersonIcon";
 import { GearsIcons } from "./icons/GearsIcons";
@@ -226,6 +226,43 @@ function App() {
                   <small>CSS</small>
                   <small>JavaScript</small>
                   <small>Bootstrap</small>
+                </div>
+                <div>
+                  <div className="line"></div>
+                </div>
+              </div>
+            </section>
+            {/* NotesAPP */}
+            <section className="project">
+              <div className="project-img">
+                <ImageSlider images={noteApp.images} />
+              </div>
+              <div className="project-header">
+                <h3>Notes App </h3>
+                <div className="project-buttons">
+                  <a
+                    className="btn"
+                    href="https://github.com/SalinasRodrigo/django-react-notes-app.git"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+              <div className="project-main">
+                <p>
+                  &nbsp;{noteApp.description}
+                </p>
+                <div>
+                  <small>Python</small>
+                  <small>Django</small>
+                  <small>SQLite</small>
+                  <small>APIRest</small>
+                  <small>React</small>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>JavaScript</small>
                 </div>
                 <div>
                   <div className="line"></div>
