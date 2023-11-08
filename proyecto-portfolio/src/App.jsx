@@ -25,6 +25,7 @@ import { ContactIcon } from "./icons/ContactIcon";
 import { ToolsIcon } from "./icons/ToolsIcon";
 import { LightbulbIcon } from "./icons/LightbulbIcon";
 import fotoDePerfil from './assets/perfil.jpg';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -414,6 +415,7 @@ function App() {
           <small>© Rodrigo Salinas 2023</small>
         </div>
       </footer>
+      <Analytics/>
     </>
   );
 }
