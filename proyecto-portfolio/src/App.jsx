@@ -73,7 +73,7 @@ function App() {
           <div className="personal-speach-body">
             <div>
               <p>
-                &nbsp;Soy un desarrollador web Full Stack y estudiante de
+                Soy un desarrollador web Full Stack y estudiante de
                 ingeniería en informática. Habiendo incursionado al mundo de la
                 informática y el desarrollo de forma autodidacta y aun
                 especializándome en la universidad, decidí enfocarme en el área
@@ -81,7 +81,7 @@ function App() {
               </p>
               <br />
               <p>
-                &nbsp;Me especializo en Python (con los framework&apos;s Flask y
+                Me especializo en Python (con los framework&apos;s Flask y
                 Django) y bases de datos SQL en el backend y utilizo el
                 framework React para el frontend (además de contar con los
                 conocimientos en HTML, CSS y JavaScript junto a algunas de sus
@@ -89,7 +89,7 @@ function App() {
               </p>
               <br />
               <p>
-                &nbsp;Disfruto de aprender y trabajar en equipo para crear
+                Disfruto de aprender y trabajar en equipo para crear
                 nuevas tecnologías aportando, además de mis habilidades
                 técnicas, comunicación asertiva y empática con mis compañeros.
                 Busco oportunidades en el área IT donde pueda crecer como
@@ -217,7 +217,7 @@ function App() {
               </div>
               <div className="project-main">
                 <p>
-                  &nbsp;{kibo.description}
+                  {kibo.description}
                 </p>
                 <div>
                   <small>Python</small>
@@ -253,7 +253,7 @@ function App() {
               </div>
               <div className="project-main">
                 <p>
-                  &nbsp;{noteApp.description}
+                  {noteApp.description}
                 </p>
                 <div>
                   <small>Python</small>
@@ -298,7 +298,7 @@ function App() {
               </div>
               <div className="project-main">
                 <p>
-                  &nbsp;{torneosTruco.description}
+                  {torneosTruco.description}
                 </p>
                 <div>
                   <small>React</small>
@@ -339,7 +339,7 @@ function App() {
               </div>
               <div className="project-main">
                 <p>
-                  &nbsp;{weatherApp.description}
+                  {weatherApp.description}
                 </p>
                 <div>
                   <small>React</small>
@@ -363,7 +363,7 @@ function App() {
               <small>2021 - actualidad</small>
             </div>
             <p>
-              &nbsp;Ciencias físico-matemáticas. - Ciencias de la computación. -
+              Ciencias físico-matemáticas. - Ciencias de la computación. -
               Planificar, diseñar e implementar proyectos informáticos. -
               Habilidad de trabajar en equipo y de comunicarse eficientemente en forma oral y escrita.
             </p>
@@ -374,7 +374,7 @@ function App() {
               <small>2022 - 2023</small>
             </div>
             <p>
-              &nbsp;HTML5 - CSS3 - JavaScript - Python - MySQL - Flask - Django
+              HTML5 - CSS3 - JavaScript - Python - MySQL - Flask - Django
             </p>
           </div>
         </section>
