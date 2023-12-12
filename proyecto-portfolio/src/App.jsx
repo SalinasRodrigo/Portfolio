@@ -380,7 +380,7 @@ function App() {
         </section>
         <section className="contact">
           <header className="contact-header" id="contact">
-            <h2>¡Contactame!</h2>
+            <h2>¡Contáctame!</h2>
           </header>
           <div className="contact-body">
             <ContactToMe />
